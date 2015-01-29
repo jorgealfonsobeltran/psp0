@@ -21,7 +21,7 @@ public class App
 			Scanner teclado=new Scanner(System.in);
 			
 	
-	    	System.out.println("Opciones:\n1. Calcular promedio. \n2. Calcular Desviación Estandar. \nInserte en el archivo arreglo.txt los valores del arreglo separados por comas.");
+	    	System.out.println("Opciones:\n1. Calcular promedio. \n2. Calcular Desviación Estandar. \nInserte en el archivo arreglo.txt los valores del arreglo.");
 			while((linea=bufferLector.readLine ()) != null){
 				numeroLinea++;
 				try{
